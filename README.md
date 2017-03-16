@@ -25,17 +25,17 @@ JavaScript supports the following types of operators:
    * Increment (++) - Increases an integer value by one
    * Decrement (--); - Decreases an integer value by one
 - Comparison Operators (These return a **boolean** value of *true* or *false*)
-   * Strict Equal (===) - Checks if the value of two operands are equal in data type and value or not, if yes, then the condition becomes *true*. Else, the condition is *false*.
-   * Not Equal (!=) - Checks if the value of two operands are equal or not, if the values are not equal, then the condition becomes *true*. Else, the condition is *false*.
-   * Greater Than (>) - Checks if the left operand is greater than the value of the right operand, if yes, then the condition becomes *true*. Else, the condition is *false*.
-   * Less Than (<) - Checks if the value of the left operand is less than the value of the right operand, if yes, then the condition becomes *true*. Else, the condition is *false*.
-   * Greater than or Equal to (>=) - Checks if the value of the left operand is greater than or equal to the value of the right oeprand, if yes, then the condition becomes *true. Else, the condition is *false*.
-   * Less than or Equal to (<=) - Checks if the value of the left operand is less than or equal to the value of the right operand, if yes, then the condition becomes *true*. Else, the condition is *false*.
+   * Strict Equal (===) - Checks if the value of two operands are equal in data type and value or not
+   * Not Equal (!=) - Checks if the value of two operands are equal or not
+   * Greater Than (>) - Checks if the left operand is greater than the value of the right operand
+   * Less Than (<) - Checks if the value of the left operand is less than the value of the right operand
+   * Greater than or Equal to (>=) - Checks if the value of the left operand is greater than or equal to the value of the right oeprand
+   * Less than or Equal to (<=) - Checks if the value of the left operand is less than or equal to the value of the right operand
    
 - Logical (or Relational) Operators
 - Assignment Operators
 
-### Arithmetic Operators
+### Arithmetic Operators Examples
 
 ```
 var a = 4;
@@ -67,8 +67,48 @@ console.log(b--); // This will give 1
 */
 ```
 
-### Comparison Operators
+### Comparison Operators Examples
+```
+var a = 10;
+var b = 20;
 
+/*
+* Strict Equal (===)
+* Checks if the value of two operands are equal in data type and value or not.
+* If yes, then the condition becomes *true*. Else, the condition is *false*.
+*/
+
+/*
+* Not Equal (!=)
+* Checks if the value of two operands are equal or not.
+* If the values are not equal, then the condition becomes *true*. Else, the condition is *false*
+*/
+
+/*
+* Greater Than (>)
+* Checks if the left operand is greater than the value of the right operand.
+* If yes, then the condition becomes *true*. Else, the condition is *false*.
+*/
+
+/*
+* Less Than (<)
+* Checks if the value of the left operand is less than the value of the right operand.
+* If yes, then the condition becomes *true*. Else, the condition is *false*.
+*/
+ 
+/*
+* Greater than or Equal to (>=)
+* Checks if the value of the left operand is greater than or equal to the value of the right oeprand.
+* If yes, then the condition becomes *true. Else, the condition is *false*.
+*/
+ 
+/*
+* Less than or Equal to (<=)
+* Checks if the value of the left operand is less than or equal to the value of the right operand.
+* If yes, then the condition becomes *true*. Else, the condition is *false*.
+*/
+
+```
 
 ## JavaScript in External File
 The **script** tag allows you to store JavaScript in an external file and then include it into your HTML files.
