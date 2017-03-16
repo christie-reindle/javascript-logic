@@ -47,6 +47,7 @@ console.log(a++); //This will give 5
 
 // Decrement (--); - Decreases an integer value by one
 console.log(b--); // This will give 1
+```
 
 ## JavaScript in External File
 The **script** tag allows you to store JavaScript in an external file and then include it into your HTML files.
