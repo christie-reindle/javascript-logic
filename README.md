@@ -17,11 +17,13 @@ console.log("This statement will be executed");
 ## Operators
 JavaScript supports the following types of operators:
 - Arithmetic Operators
+ - Addition (+) - Adds two operands
+ - Subtraction (-) - Subtracts the second operand from the first
 - Comparison Operators
 - Logical (or Relational) Operators
 - Assignment Operators
 
-#### Arithmetic Operators
+### Arithmetic Operators
 
 ```
 var a = 4;
@@ -52,6 +54,9 @@ console.log(b--); // This will give 1
 * Note: Addition operator (+) works for Numeric as well as Strings, but we will get into that later :)
 */
 ```
+
+### Comparison Operators
+
 
 ## JavaScript in External File
 The **script** tag allows you to store JavaScript in an external file and then include it into your HTML files.
