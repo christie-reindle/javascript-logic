@@ -1,6 +1,18 @@
 # javascript-logic
 [Beginner] - JS - Logic, Conditionals, Operators
 
+JavaScript is a **programming language** that executes a computer program given a list of **statements** developed from a programmer. JavaScript statements are composed of: values, expressions, comments, operators, and keywords. 
+
+## Values
+- Numbers are written with or without decimals
+- Strings are text, written within double or single quotes
+
+## Expressions
+An **expression** is a combination of values, variables, and oeprators, which computes to a value. Computing a value is called an evaluation.
+```
+5 * 10; // This evaluates to 50
+```
+
 ## Comments in JavaScript
 - Any text between a `//` and the end of a line is treated as a comment and is ignored by JavaScript
 - Any text between the characters /* and */ is treated as a comment. This may span multiple lines.
@@ -46,7 +58,7 @@ JavaScript supports the following types of operators:
   * %=
 
 ### Arithmetic Operators
-Arithmetic operators are used to perform arithmetic between variables and/or values.
+Arithmetic operators are used to perform arithmetic between variables and/or values and compute values.
 
 ```
 var a = 4;
@@ -226,8 +238,17 @@ Here is an example to show how you can include an external JavaScript file in yo
 </html>
 ```
 
+## Summary
+- Variables are used to store data **values** and is created in JavaScript using the **var** keyword to **declare** variables.
+- An **equal sign** is used to **assign values** to variables. Otherwise, the value of the unassigned variable is undefined.
+- An **expression** is a combination of values, variables, and oeprators, which computes to a value. Computing a value is called an evaluation.
+- **Keywords** are used to identify actions to be performed by the computer
+- **Comments** are JavaScript statements that are not executed
+- JavaScript is case sensitive
+
 ### Resources
 1. [JavaScript Comments](https://www.w3schools.com/js/js_comments.asp)
 2. [W3Schools - JavaScript Operators](https://www.w3schools.com/jsref/jsref_operators.asp)
 3. [TutorialsPoint - JavaScript Operators](https://www.tutorialspoint.com/javascript/javascript_operators.htm)
 4. [TutorialsPoint - JavaScript - Placement in HTML File](https://www.tutorialspoint.com/javascript/javascript_placement.htm)
+5. [Keywords - JavaScript Reserved Words](https://www.w3schools.com/js/js_reserved.asp) 
