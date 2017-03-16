@@ -172,7 +172,7 @@ console.log(cat); // This will print "meowwoof"
 * Same as: x = x - y
 */
 cat -= dog;
-console.log(cat); // This will give an error, "NaN"
+console.log(cat); // This will give an error, ["NaN"](https://www.w3schools.com/jsref/jsref_isnan.asp)
 
 secondNum -= firstNum;
 console.log(secondNum); // This will print 5
@@ -182,7 +182,7 @@ console.log(secondNum); // This will print 5
 * Same as: x = x * y
 */
 cat *= dog;
-console.log(cat); // This will give an error, "NaN"
+console.log(cat); // This will give an error, ["NaN"](https://www.w3schools.com/jsref/jsref_isnan.asp)
 
 secondNum *= firstNum;
 console.log(secondNum); // This will print 50
@@ -192,7 +192,7 @@ console.log(secondNum); // This will print 50
 * Same as: x = x / y
 */
 cat /= dog;
-console.log(cat); // This will give an error, "NaN"
+console.log(cat); // This will give an error, ["NaN"](https://www.w3schools.com/jsref/jsref_isnan.asp)
 
 secondNum /= firstNum;
 console.log(secondNum); // This will print 2
@@ -202,7 +202,7 @@ console.log(secondNum); // This will print 2
 * Same as: x = x % y
 */
 cat %= dog;
-console.log(cat); // This will give an error, "NaN"
+console.log(cat); // This will give an error, ["NaN"](https://www.w3schools.com/jsref/jsref_isnan.asp)
 
 secondNum %= firstNum;
 console.log(secondNum); // This will print 0
@@ -225,3 +225,9 @@ Here is an example to show how you can include an external JavaScript file in yo
    </body>
 </html>
 ```
+
+##### Resources
+1. [JavaScript Comments] (https://www.w3schools.com/js/js_comments.asp)
+2. [W3Schools - JavaScript Operators] (https://www.w3schools.com/jsref/jsref_operators.asp)
+3. [TutorialsPoint - JavaScript Operators] (https://www.tutorialspoint.com/javascript/javascript_operators.htm)
+4. [TutorialsPoint - JavaScript - Placement in HTML File](https://www.tutorialspoint.com/javascript/javascript_placement.htm)
