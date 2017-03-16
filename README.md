@@ -1,7 +1,7 @@
 # javascript-logic
 [Beginner] - JS - Logic, Conditionals, Operators
 
-JavaScript is a **programming language** that executes a computer program given a list of **statements** developed from a programmer. JavaScript statements are composed of: values, expressions, comments, operators, and keywords. 
+JavaScript is a **programming language** that executes a computer program given a list of **statements** developed from a programmer. JavaScript statements are composed of: values, expressions, comments, operators, and keywords. With all these combined, we can formulate **logic** through the use of **conditional statements**.
 
 ## Values
 - Numbers are written with or without decimals
@@ -36,6 +36,7 @@ JavaScript supports the following types of operators:
    * Modulus (%)
    * Increment (++)
    * Decrement (--)
+   
 - Comparison Operators (These return a **boolean** value of *true* or *false*)
    * Strict Equal (===)
    * Not Equal (!==)
@@ -218,6 +219,67 @@ console.log(cat); // This will give an error, ["NaN"](https://www.w3schools.com/
 
 secondNum %= firstNum;
 console.log(secondNum); // This will print 0
+```
+
+## Conditional Statements
+Usually, when we write code, we want to perform different actions based on different decisions. In JavaScript we use conditional statements to do this. 
+The following conditional statements we will be using in class are: 
+- if - specify a block of code to be executed, if a specified condition is true
+- else - specify a block of code to be executed, if a specified condition is false
+- else if - specify a new condition to test, if the first condition is false
+
+### if Statement
+**Syntax**
+```if (condition) {
+  block of code to be executed if condition is true
+}
+```
+
+**Example**
+```if (age < 10000000){
+  console.log("Always code!!!");
+}
+```
+
+### else Statement
+**Syntax**
+```if (condition) {
+  block of code to be executed if condition is true
+} else {
+  block of code to be executed if condition is false
+}
+```
+
+**Example**
+```if (light === "Green"){
+  console.log("Please start walking");
+} else {
+  console.log("Please don't walk. You will get hurt :O");
+}
+```
+
+### else if Statement
+**Syntax**
+```if (condition1) {
+    block of code to be executed if condition1 is true
+} else if (condition2) {
+    block of code to be executed if the condition1 is false and condition2 is true
+} else {
+    block of code to be executed if the condition1 is false and condition2 is false
+}
+```
+
+**Example**
+```
+var time = new Date();
+time.getHours();
+if (time.getHours() < 8) {
+    greeting = "Good morning";
+} else if (time.getHours() < 12) {
+    greeting = "Good day";
+} else {
+    greeting = "Good evening";
+}
 ```
 
 ## JavaScript in External File
