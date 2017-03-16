@@ -226,8 +226,8 @@ Here is an example to show how you can include an external JavaScript file in yo
 </html>
 ```
 
-##### Resources
-1. [JavaScript Comments] (https://www.w3schools.com/js/js_comments.asp)
-2. [W3Schools - JavaScript Operators] (https://www.w3schools.com/jsref/jsref_operators.asp)
-3. [TutorialsPoint - JavaScript Operators] (https://www.tutorialspoint.com/javascript/javascript_operators.htm)
+### Resources
+1. [JavaScript Comments](https://www.w3schools.com/js/js_comments.asp)
+2. [W3Schools - JavaScript Operators](https://www.w3schools.com/jsref/jsref_operators.asp)
+3. [TutorialsPoint - JavaScript Operators](https://www.tutorialspoint.com/javascript/javascript_operators.htm)
 4. [TutorialsPoint - JavaScript - Placement in HTML File](https://www.tutorialspoint.com/javascript/javascript_placement.htm)
