@@ -47,6 +47,10 @@ console.log(a++); //This will give 5
 
 // Decrement (--); - Decreases an integer value by one
 console.log(b--); // This will give 1
+
+/*
+* Note: Addition operator (+) works for Numeric as well as Strings, but we will get into that later :)
+*/
 ```
 
 ## JavaScript in External File
