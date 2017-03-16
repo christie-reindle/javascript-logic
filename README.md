@@ -33,6 +33,10 @@ JavaScript supports the following types of operators:
    * Less than or Equal to (<=)
    
 - Logical (or Relational) Operators
+  * And (&&) - If both the operands satisfy the statment, then the condition becomes true
+  * Or (||) - If any of the two operands satisfy the statement, then the condition becomes true.
+  * Not (!) - Reverses the logical state of its operand.
+  
 - Assignment Operators
 
 ### Arithmetic Operators Examples
@@ -114,6 +118,20 @@ console.log(a >= b); // This will print false
 */
 console.log(a <= b); // This will print true
 
+```
+ 
+### Logical (or Relational) Operators
+```
+var burger = 1;
+var pickles = 1;
+//And (&&)
+console.log(burger > 0 && pickles < 1); // This will print false
+
+//Or (||)
+console.log(burger === 5 || pickles === 5); // This will print
+
+//Not (!)
+console.log(!burger === 1); This will print false
 ```
 
 ## JavaScript in External File
