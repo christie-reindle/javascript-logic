@@ -17,20 +17,20 @@ console.log("This statement will be executed");
 ## Operators
 JavaScript supports the following types of operators:
 - Arithmetic Operators
-   * Addition (+) - Adds two operands
-   * Subtraction (-) - Subtracts the second operand from the first
-   * Multiplication (*)* - Multiply both operands
-   * Division (/) - Divide the numerator by the denominator
-   * Modulus (%) - Outputs the remainder of an integer division
-   * Increment (++) - Increases an integer value by one
-   * Decrement (--); - Decreases an integer value by one
+   * Addition (+)
+   * Subtraction (-)
+   * Multiplication (*)*
+   * Division (/)
+   * Modulus (%)
+   * Increment (++)
+   * Decrement (--)
 - Comparison Operators (These return a **boolean** value of *true* or *false*)
-   * Strict Equal (===) - Checks if the value of two operands are equal in data type and value or not
-   * Not Equal (!=) - Checks if the value of two operands are equal or not
-   * Greater Than (>) - Checks if the left operand is greater than the value of the right operand
-   * Less Than (<) - Checks if the value of the left operand is less than the value of the right operand
-   * Greater than or Equal to (>=) - Checks if the value of the left operand is greater than or equal to the value of the right oeprand
-   * Less than or Equal to (<=) - Checks if the value of the left operand is less than or equal to the value of the right operand
+   * Strict Equal (===)
+   * Not Equal (!=)
+   * Greater Than (>)
+   * Less Than (<)
+   * Greater than or Equal to (>=)
+   * Less than or Equal to (<=)
    
 - Logical (or Relational) Operators
 - Assignment Operators
@@ -98,7 +98,7 @@ var b = 20;
  
 /*
 * Greater than or Equal to (>=)
-* Checks if the value of the left operand is greater than or equal to the value of the right oeprand.
+* Checks if the value of the left operand is greater than or equal to the value of the right operand.
 * If yes, then the condition becomes *true. Else, the condition is *false*.
 */
  
