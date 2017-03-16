@@ -21,7 +21,7 @@ The **script** tag allows you to store JavaScript in an external file and then i
 
 Here is an example to show how you can include an external JavaScript file in your HTML code using **script** tag and its **src** attribute.
 
-`html
+```
 <html>
 
    <head>
