@@ -24,9 +24,7 @@ JavaScript supports the following types of operators:
    * Modulus (%) - Outputs the remainder of an integer division
    * Increment (++) - Increases an integer value by one
    * Decrement (--); - Decreases an integer value by one
-- Comparison Operators
-
-These return a **boolean** value of *true* or *false*
+- Comparison Operators (These return a **boolean** value of *true* or *false*)
    * Strict Equal (===) - Checks if the value of two operands are equal in data type and value or not, if yes, then the condition becomes *true*. Else, the condition is *false*.
    * Not Equal (!=) - Checks if the value of two operands are equal or not, if the values are not equal, then the condition becomes *true*. Else, the condition is *false*.
    * Greater Than (>) - Checks if the left operand is greater than the value of the right operand, if yes, then the condition becomes *true*. Else, the condition is *false*.
