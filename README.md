@@ -17,8 +17,8 @@ console.log("This statement will be executed");
 ## Operators
 JavaScript supports the following types of operators:
 - Arithmetic Operators
- ++ Addition (+) - Adds two operands
- ++ Subtraction (-) - Subtracts the second operand from the first
+ * Addition (+) - Adds two operands
+ * Subtraction (-) - Subtracts the second operand from the first
 - Comparison Operators
 - Logical (or Relational) Operators
 - Assignment Operators
