@@ -38,8 +38,15 @@ JavaScript supports the following types of operators:
   * Not (!) - Reverses the logical state of its operand.
   
 - Assignment Operators
+  * =
+  * +=
+  * -=
+  * *=
+  * /=
+  * %=
 
-### Arithmetic Operators Examples
+### Arithmetic Operators
+Arithmetic operators are used to perform arithmetic between variables and/or values.
 
 ```
 var a = 4;
@@ -72,6 +79,8 @@ console.log(b--); // This will print 1
 ```
 
 ### Comparison Operators Examples
+Comparison operators are used in logical statements to determine equality or difference between variables or values.
+
 ```
 var a = 10;
 var b = 20;
@@ -121,6 +130,8 @@ console.log(a <= b); // This will print true
 ```
  
 ### Logical (or Relational) Operators
+Logical operators are used to determine the logic between variables or values.
+
 ```
 var burger = 1;
 var pickles = 1;
@@ -132,6 +143,69 @@ console.log(burger === 5 || pickles === 5); // This will print
 
 //Not (!)
 console.log(!burger === 1); This will print false
+```
+
+### Assignment Operators
+Assignment operators are used to assign values to JavaScript variables
+
+```
+var dog = "woof";
+var cat = "meow";
+var firstNum = 5;
+var secondNum = 10;
+/*
+* Operator: =
+* Same as: x = y
+*/
+cat = dog;
+console.log(cat); // This will print "woof"
+
+/*
+* Operator: +=
+* Same as: x = x + y
+*/
+cat += dog;
+console.log(cat); // This will print "meowwoof"
+
+/*
+* Operator: -=
+* Same as: x = x - y
+*/
+cat -= dog;
+console.log(cat); // This will give an error, "NaN"
+
+secondNum -= firstNum;
+console.log(secondNum); // This will print 5
+
+/*
+* Operator: *=
+* Same as: x = x * y
+*/
+cat *= dog;
+console.log(cat); // This will give an error, "NaN"
+
+secondNum *= firstNum;
+console.log(secondNum); // This will print 50
+
+/*
+* Operator: /=
+* Same as: x = x / y
+*/
+cat /= dog;
+console.log(cat); // This will give an error, "NaN"
+
+secondNum /= firstNum;
+console.log(secondNum); // This will print 2
+
+/*
+* Operator: %=
+* Same as: x = x % y
+*/
+cat %= dog;
+console.log(cat); // This will give an error, "NaN"
+
+secondNum %= firstNum;
+console.log(secondNum); // This will print 0
 ```
 
 ## JavaScript in External File
