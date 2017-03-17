@@ -46,7 +46,7 @@ JavaScript supports the following types of operators:
    * Less than or Equal to (<=)
    
 - Logical (or Relational) Operators
-  * And (&&) - If both the operands satisfy the statment, then the condition becomes true
+  * And (&&) - If both the operands  satisfy the statment, then the condition becomes true
   * Or (||) - If any of the two operands satisfy the statement, then the condition becomes true.
   * Not (!) - Reverses the logical state of its operand.
   
