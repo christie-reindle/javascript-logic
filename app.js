@@ -85,4 +85,4 @@ console.log(!true); // false - !false gives true
 var a = "apple";
 var b = 2;
 console.log(a); 
-console.log(b);
+console.log(b); 
